@@ -1,0 +1,25 @@
+<students>
+    <student id="1">
+        <name>John Smith</name>
+        <age>19</age>
+        <email>john@gmail.com</email>
+        <group>CS-101</group>
+        <grade>95</grade>
+    </student>
+
+    <student id="2">
+        <name>Alice Brown</name>
+        <age>21</age>
+        <email>alice@yahoo.com</email>
+        <group>SE-202</group>
+        <grade>88</grade>
+    </student>
+
+    <student id="3">
+        <name>Mike Johnson</name>
+        <age>18</age>
+        <email>mike123@outlook.com</email>
+        <group>CS-101</group>
+        <grade>76</grade>
+    </student>
+</students>

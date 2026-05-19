@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="greenhouse">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="flowers">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="flower" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+
+                                        <xs:element name="name" type="xs:string"/>
+
+                                        <xs:element name="soil">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="loamy"/>
+                                                    <xs:enumeration value="podzolic"/>
+                                                    <xs:enumeration value="sod-podzolic"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="origin" type="xs:string"/>
+
+                                        <xs:element name="visual_params">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="stem_color" type="xs:string"/>
+                                                    <xs:element name="leaf_color" type="xs:string"/>
+                                                    <xs:element name="average_size" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="growing_tips">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="temperature" type="xs:int"/>
+                                                    <xs:element name="light" type="xs:string"/>
+                                                    <xs:element name="watering" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="multiplying">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="bulbs"/>
+                                                    <xs:enumeration value="spores"/>
+                                                    <xs:enumeration value="seeds"/>
+                                                    <xs:enumeration value="cuttings"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:int" use="required"/>
+
+                                </xs:complexType>
+
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

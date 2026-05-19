@@ -1,0 +1,63 @@
+<greenhouse>
+    <flowers>
+        <flower id="1">
+            <name>Rose</name>
+            <soil>loamy</soil>
+            <origin>Europe</origin>
+
+            <visual_params>
+                <stem_color>green</stem_color>
+                <leaf_color>dark green</leaf_color>
+                <average_size>60 cm</average_size>
+            </visual_params>
+
+            <growing_tips>
+                <temperature>20</temperature>
+                <light>light-loving</light>
+                <watering>3 L/week</watering>
+            </growing_tips>
+
+            <multiplying>cuttings</multiplying>
+        </flower>
+
+        <flower id="2">
+            <name>Tulip</name>
+            <soil>podzolic</soil>
+            <origin>Central Asia</origin>
+
+            <visual_params>
+                <stem_color>green</stem_color>
+                <leaf_color>light green</leaf_color>
+                <average_size>40 cm</average_size>
+            </visual_params>
+
+            <growing_tips>
+                <temperature>15</temperature>
+                <light>light-loving</light>
+                <watering>2 L/week</watering>
+            </growing_tips>
+
+            <multiplying>bulbs</multiplying>
+        </flower>
+
+        <flower id="3">
+            <name>Fern</name>
+            <soil>podzolic</soil>
+            <origin>South America</origin>
+
+            <visual_params>
+                <stem_color>green</stem_color>
+                <leaf_color>bright green</leaf_color>
+                <average_size>80 cm</average_size>
+            </visual_params>
+
+            <growing_tips>
+                <temperature>18</temperature>
+                <light>shade-tolerant</light>
+                <watering>4 L/week</watering>
+            </growing_tips>
+
+            <multiplying>spores</multiplying>
+        </flower>
+    </flowers>
+</greenhouse>
