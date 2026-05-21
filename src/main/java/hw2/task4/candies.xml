@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factory>
+
+    <candy id="1">
+        <name>Snickers</name>
+        <type>Chocolate bar</type>
+        <producer>Mars</producer>
+        <weight>50</weight>
+        <price>35</price>
+    </candy>
+
+    <candy id="2">
+        <name>Roshen Kara-Kum</name>
+        <type>Chocolate candy</type>
+        <producer>Roshen</producer>
+        <weight>20</weight>
+        <price>12</price>
+    </candy>
+
+    <candy id="3">
+        <name>Milky Way</name>
+        <type>Nougat bar</type>
+        <producer>Mars</producer>
+        <weight>40</weight>
+        <price>28</price>
+    </candy>
+
+</factory>
